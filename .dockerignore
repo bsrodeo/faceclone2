@@ -1,0 +1,95 @@
+# ----------------------------------------------------
+# Git & IDE
+# ----------------------------------------------------
+.git
+.gitignore
+.vscode/
+.idea/
+*.log
+
+# ----------------------------------------------------
+# Python Cache & Build Artifacts
+# ----------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.whl
+*.egg-info/
+build/
+dist/
+
+# ----------------------------------------------------
+# Local Virtual Environments
+# ----------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# ----------------------------------------------------
+# Node (falls je nötig)
+# ----------------------------------------------------
+node_modules/
+
+# ----------------------------------------------------
+# Models & Large ML Files
+# ----------------------------------------------------
+models/
+weights/
+checkpoints/
+facefusion/
+facefusion_cache/
+.cache/
+.cache_dir/
+.assets/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+
+# ----------------------------------------------------
+# Training / Output / Temporary Directories
+# ----------------------------------------------------
+outputs/
+output/
+results/
+runs/
+temp/
+tmp/
+sessions/
+
+# ----------------------------------------------------
+# Local Media – nicht ins Docker Image!
+# ----------------------------------------------------
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.flv
+*.gif
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Falls du Testbilder im Repo hast, besser eine Ausnahme whitelisten:
+# !assets/test_image.png
+
+# ----------------------------------------------------
+# FaceFusion-specific
+# ----------------------------------------------------
+.facefusion/
+.ff_cache/
+ff_cache/
+facefusion_tmp/
+facefusion_temp/
