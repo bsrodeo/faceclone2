@@ -3,10 +3,11 @@ gradio-rangeslider==0.0.8
 gradio==5.44.1
 
 # --- Numerik / ML-Stack ---
-numpy==1.26.4
+numpy>=2.0,<2.3
 scipy==1.15.3
 onnx==1.16.0
-onnxruntime-gpu==1.17.1
+# WICHTIG: CUDA-12-kompatible Version
+onnxruntime-gpu>=1.19.0
 
 # --- CV / System ---
 opencv-python==4.11.0.86
